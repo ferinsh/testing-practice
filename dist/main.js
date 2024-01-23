@@ -1,0 +1,1 @@
+(()=>{"use strict";function e(e){return e.charAt(0).toUpperCase()+e.substr(1)}test("dog becomes Dog",(()=>{expect(e(dog)).toBe("Dog")})),test("head becomes Head",(()=>{expect(e(head)).toBe("Head")}))})();
